@@ -34,6 +34,7 @@ export default {
   background-color: #333;
   transform: translateY(-100px);
 }
+
 #logo {
   max-width: 200px;
   padding: 1em;
@@ -42,31 +43,24 @@ export default {
   /* filter: drop-shadow(3px 3px rgba(255,255,255,0.15)); */
   transform: translateY(25px);
 }
+
 #logo-skew {
   height: 100px;
   /* border-bottom: 0.5em solid rgba(249,233,27,0.40); */
   background-color: #333;
   transform: skew(0, -3deg) translateY(160px);
 }
+
 #content {
   padding: 0 2em 1em;
   text-align: left;
   transform: translateY(-2em);
 }
+
 #content h1 {
   margin-top: 0;
 }
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+
 a {
   border-bottom: 1px solid rgba(249,233,27,0.75);
   color: rgba(249,233,27,0.75);

@@ -58,8 +58,8 @@ img {
 
 #app > * {
   width: 100%;
-  border-right: 0.5em solid #000;
-  border-left: 0.5em solid #000;
+  margin: 2em 0;
+  border: 0.5em solid #000;
   color: rgba(255,255,255,0.90);
   /* background-color: rgba(255,255,255,0.95); */
   background-color: #000;
@@ -68,6 +68,8 @@ img {
 
 @media (min-width: 1000px) {
   #app > * {
+    margin: 0;
+    border-top: none;
     border-right: 1em solid #000;
     border-left: 1em solid #000;
     grid-column: 3 / span 8;
