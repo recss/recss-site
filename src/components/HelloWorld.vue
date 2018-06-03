@@ -5,12 +5,6 @@
       <svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
         <path d="M85.228,58.529c-3.63-2.096-8.005-1.703-11.177,0.632L58.182,50l18.664-10.775l5.04-7.634l-9.131,0.548L54.091,42.914  V24.591c3.609-1.58,6.136-5.172,6.136-9.364C60.227,9.579,55.648,5,50,5S39.773,9.579,39.773,15.227  c0,4.192,2.527,7.784,6.136,9.364v18.323l-15.869-9.162c0.437-3.915-1.411-7.9-5.041-9.996c-4.892-2.824-11.147-1.148-13.971,3.744  c-2.824,4.892-1.148,11.146,3.744,13.971c3.63,2.096,8.005,1.703,11.177-0.632L41.818,50L23.155,60.775l-5.04,7.634l9.131-0.548  l18.664-10.775v18.323c-3.609,1.579-6.136,5.172-6.136,9.364C39.773,90.421,44.352,95,50,95s10.227-4.579,10.227-10.227  c0-4.192-2.527-7.785-6.136-9.364V57.086l15.869,9.162c-0.437,3.915,1.411,7.9,5.041,9.996c4.892,2.824,11.147,1.148,13.971-3.743  C91.795,67.608,90.119,61.353,85.228,58.529z"/>
       </svg>
-
-      <defs>
-        <pattern id="svg-bg" patternUnits="userSpaceOnUse" width="200" height="200">
-          <image xlink:href="/static/noun_38753_cc.png" x="0" y="0" width="200" height="200" />
-        </pattern>
-      </defs>
     </section>
 
     <section id="content">
@@ -18,10 +12,6 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et netus et malesuada fames ac turpis egestas integer eget. Varius vel pharetra vel turpis nunc eget lorem dolor sed. Semper viverra nam libero justo laoreet sit amet cursus sit. Convallis aenean et tortor at risus viverra adipiscing at. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Arcu ac tortor dignissim convallis. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. </p>
 
       <p>Dolor sit amet consectetur adipiscing. Commodo nulla facilisi nullam vehicula ipsum a arcu. Vitae et leo duis ut diam quam. Senectus et netus et malesuada fames. Mattis rhoncus urna neque viverra justo. Viverra nibh cras pulvinar mattis nunc. Lectus nulla at volutpat diam ut. Tortor at risus viverra adipiscing at in tellus. Molestie ac feugiat sed lectus vestibulum mattis.</p>
-
-      <p>Pellentesque habitant morbi tristique senectus. Magna fringilla urna porttitor rhoncus dolor purus non. Vitae semper quis lectus nulla at volutpat diam. Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque. Id faucibus nisl tincidunt eget nullam non. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Consequat ac felis donec et odio pellentesque diam volutpat commodo. Vitae purus faucibus ornare suspendisse. Nisi lacus sed viverra tellus in hac. Enim nulla aliquet porttitor lacus.
-
-</p>
     </section>
   </div>
 </template>
@@ -48,9 +38,9 @@ export default {
   max-width: 200px;
   padding: 1em;
   stroke: rgba(249,233,27,0.40);
-  fill: url(#svg-bg);
-  /* fill: rgba(255,255,255,0.10); */
+  /* fill: rgba(255,255,255,0.05); */
   /* filter: drop-shadow(3px 3px rgba(255,255,255,0.15)); */
+  transform: translateY(25px);
 }
 #logo-skew {
   height: 100px;
