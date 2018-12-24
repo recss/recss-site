@@ -27,7 +27,7 @@ export default {
 #icon {
     height: 150px;
     width: 150px;
-    margin: 0 auto 2em;
+    margin: 1em auto;
     border-radius: 75px;
     background-color: rgba(0,0,0,0.15);
     background-image: url('./assets/jacqui-icon.png');

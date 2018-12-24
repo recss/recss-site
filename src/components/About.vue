@@ -4,7 +4,10 @@
         <!-- <img :src="require(`./assets/jacqui-icon.png`)"> -->
         <!-- <div id="icon" :style="{'background-image': `url('./assets/jacqui-icon.png')`}">&nbsp;</div> -->
         <p>
-            Hello, I’m <b>Kevin K. Johnson</b>. These days, I’m a <b>front-end web designer and developer</b> working at the U.S. Cellular headquarters in Chicago. Over the years, I’ve partnered with individuals, start-ups, a non-profit organization, and a couple Fortune 500 companies. My roles have included tasks as varied as:
+            Hello, I’m <b>Kevin K. Johnson, II</b>.
+        </p>
+        <p>
+            These days, I’m a <b>front-end web designer and developer</b> working at the U.S. Cellular headquarters in Chicago. Over the years, I’ve partnered with individuals, start-ups, a non-profit organization, and a couple Fortune 500 companies. My roles have included tasks as varied as:
         </p>
     </section>
 
@@ -66,10 +69,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 ._about {
-    width: 1500px;
+    max-width: 1500px;
     margin: 1em auto;
+    line-height: 1.5;
     display: grid;
-    grid: auto-flow / repeat(12, 1fr);
+        grid: auto-flow / repeat(12, 1fr);
 }
 h3 {
   margin: 1em 0 0.5em;
@@ -87,15 +91,30 @@ li {
     grid-column: span 12;
 }
 #intro p {
-    max-width: 80em;
+    max-width: 50em;
     margin: 1em auto;
 }
 #skills {
     width: 100%;
     text-align: left;
     display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         justify-content: space-around;
         align-items: flex-start;
+}
+
+@media (max-width: 970px) {
+    #intro p {
+        max-width: 36em;
+    }
+    #skills {
+        text-align: center;
+        justify-content: center;
+    }
+    #skills-design,
+    #skills-development,
+    #skills-empathy {
+        width: 100%;
+    }
 }
 </style>
