@@ -1,8 +1,10 @@
 <template>
   <div class="_about">
     <section id="intro">
+        <!-- <img :src="require(`./assets/jacqui-icon.png`)"> -->
+        <!-- <div id="icon" :style="{'background-image': `url('./assets/jacqui-icon.png')`}">&nbsp;</div> -->
         <p>
-            Hello, I’m Kevin K. Johnson. These days, I’m a front-end web designer and developer working at the U.S. Cellular headquarters in Chicago. Over the years, I’ve partnered with individuals, start-ups, a non-profit organization, and a couple Fortune 500 companies. My roles have included tasks as varied as:
+            Hello, I’m <b>Kevin K. Johnson</b>. These days, I’m a <b>front-end web designer and developer</b> working at the U.S. Cellular headquarters in Chicago. Over the years, I’ve partnered with individuals, start-ups, a non-profit organization, and a couple Fortune 500 companies. My roles have included tasks as varied as:
         </p>
     </section>
 
