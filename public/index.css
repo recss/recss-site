@@ -5,20 +5,24 @@
 }
 
 html,
+html::after,
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
+    margin: 0 !important;
 }
 
 html {
+    height: 100%;
     background-color: floralwhite;
 }
 
 body {
-    height: 100%;
-    margin: 2em;
+    min-height: 100vh;
+    border: 1em solid rgba(0,0,0,0.25);
+    padding: 1em;
     line-height: 1.25;
+    display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
 }
 
 small {
